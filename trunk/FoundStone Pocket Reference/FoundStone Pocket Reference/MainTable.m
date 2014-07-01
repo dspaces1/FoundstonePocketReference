@@ -9,7 +9,7 @@
 #import "MainTable.h"
 #import "MainCell.h"
 #import "SubTable.h"
-#import "XBXML.h"
+#import "TBXML.h"
 
 @interface MainTable ()
 
@@ -43,9 +43,16 @@
     TBXML *sourceXML = [[TBXML alloc] initWithXMLFile:@"movies.xml" error:nil];
     
     TBXMLElement *rootElement = sourceXML.rootXMLElement;
+    TBXMLElement *videoElement = [TBXML childElementNamed:@"video" parentElement:rootElement];
     
+    NSString *idAttribute = [TBXML valueOfAttributeNamed:@"id" forElement:videoElement];
     
+    TBXMLElement *textElement = [TBXML childElementNamed:@"text" parentElement:videoElement];
     
+    NSString *textElementString = [TBXML textForElement:textElement];
+    
+    NSLog(@"%@ %@",idAttribute,textElementString);
+   
 }
 
 
