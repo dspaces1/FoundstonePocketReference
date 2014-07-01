@@ -10,7 +10,6 @@
 		020D93751963048C00C42E9A /* SubRefCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 020D93741963048C00C42E9A /* SubRefCell.m */; };
 		020D93781963055800C42E9A /* SubTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 020D93771963055800C42E9A /* SubTable.m */; };
 		020D937B196331F800C42E9A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020D937A196331F800C42E9A /* DetailViewController.m */; };
-		020D937E196351B400C42E9A /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 020D937D196351B400C42E9A /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		020D93801963527300C42E9A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 020D937F1963527300C42E9A /* libz.dylib */; };
 		020D93821963531F00C42E9A /* movies.xml in Resources */ = {isa = PBXBuildFile; fileRef = 020D93811963531F00C42E9A /* movies.xml */; };
 		0268C2EB1961FA5800F3B39E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0268C2EA1961FA5800F3B39E /* Foundation.framework */; };
@@ -28,6 +27,7 @@
 		0268C3161961FA5800F3B39E /* FoundStone_Pocket_ReferenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0268C3151961FA5800F3B39E /* FoundStone_Pocket_ReferenceTests.m */; };
 		0268C3211961FAA900F3B39E /* MainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0268C3201961FAA900F3B39E /* MainTable.m */; };
 		0268C3241961FAF300F3B39E /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0268C3231961FAF300F3B39E /* MainCell.m */; };
+		02DD7D0619635B9E0005B767 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DD7D0419635B9E0005B767 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +47,6 @@
 		020D93771963055800C42E9A /* SubTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTable.m; sourceTree = "<group>"; };
 		020D9379196331F800C42E9A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		020D937A196331F800C42E9A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		020D937C196351B400C42E9A /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
-		020D937D196351B400C42E9A /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
 		020D937F1963527300C42E9A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		020D93811963531F00C42E9A /* movies.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = movies.xml; sourceTree = "<group>"; };
 		0268C2E71961FA5800F3B39E /* FoundStone Pocket Reference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoundStone Pocket Reference.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +70,8 @@
 		0268C3201961FAA900F3B39E /* MainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTable.m; sourceTree = "<group>"; };
 		0268C3221961FAF300F3B39E /* MainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
 		0268C3231961FAF300F3B39E /* MainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
+		02DD7D0419635B9E0005B767 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBXML.m; path = ../TBXML.m; sourceTree = "<group>"; };
+		02DD7D0519635B9E0005B767 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBXML.h; path = ../TBXML.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +133,8 @@
 		0268C2F01961FA5800F3B39E /* FoundStone Pocket Reference */ = {
 			isa = PBXGroup;
 			children = (
+				02DD7D0419635B9E0005B767 /* TBXML.m */,
+				02DD7D0519635B9E0005B767 /* TBXML.h */,
 				020D93811963531F00C42E9A /* movies.xml */,
 				0268C31F1961FAA900F3B39E /* MainTable.h */,
 				0268C3201961FAA900F3B39E /* MainTable.m */,
@@ -147,8 +149,6 @@
 				0268C2F91961FA5800F3B39E /* AppDelegate.h */,
 				0268C2FA1961FA5800F3B39E /* AppDelegate.m */,
 				0268C2FC1961FA5800F3B39E /* Main.storyboard */,
-				020D937C196351B400C42E9A /* TBXML.h */,
-				020D937D196351B400C42E9A /* TBXML.m */,
 				0268C3021961FA5800F3B39E /* Images.xcassets */,
 				0268C2F11961FA5800F3B39E /* Supporting Files */,
 			);
@@ -283,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				020D93751963048C00C42E9A /* SubRefCell.m in Sources */,
-				020D937E196351B400C42E9A /* TBXML.m in Sources */,
+				02DD7D0619635B9E0005B767 /* TBXML.m in Sources */,
 				020D93781963055800C42E9A /* SubTable.m in Sources */,
 				0268C2FB1961FA5800F3B39E /* AppDelegate.m in Sources */,
 				0268C3211961FAA900F3B39E /* MainTable.m in Sources */,

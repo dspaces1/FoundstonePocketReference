@@ -5,19 +5,19 @@
 // ================================================================================================
 //  Created by Tom Bradley on 21/10/2009.
 //  Version 1.5
-//
+//  
 //  Copyright 2012 71Squared All rights reserved.b
-//
+//  
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
 //  in the Software without restriction, including without limitation the rights
 //  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 //  copies of the Software, and to permit persons to whom the Software is
 //  furnished to do so, subject to the following conditions:
-//
+//  
 //  The above copyright notice and this permission notice shall be included in
 //  all copies or substantial portions of the Software.
-//
+//  
 //  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 //  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 //  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -35,7 +35,7 @@
 // ================================================================================================
 enum TBXMLErrorCodes {
     D_TBXML_SUCCESS = 0,
-    
+
     D_TBXML_DATA_NIL,
     D_TBXML_DECODE_FAILURE,
     D_TBXML_MEMORY_ALLOC_FAILURE,
@@ -85,17 +85,17 @@ typedef struct _TBXMLAttribute {
 typedef struct _TBXMLElement {
 	char * name;
 	char * text;
-    
+	
 	TBXMLAttribute * firstAttribute;
-    
+	
 	struct _TBXMLElement * parentElement;
-    
+	
 	struct _TBXMLElement * firstChild;
 	struct _TBXMLElement * currentChild;
-    
+	
 	struct _TBXMLElement * nextSibling;
 	struct _TBXMLElement * previousSibling;
-    
+	
 } TBXMLElement;
 
 /** The TBXMLElementBuffer is a structure that holds a buffer of TBXMLElements. When the buffer of elements is used, an additional buffer is created and linked to the previous one. This allows for efficient memory allocation/deallocation elements.
@@ -131,16 +131,16 @@ typedef void (^TBXMLIterateAttributeBlock)(TBXMLAttribute *attribute, NSString *
 // ================================================================================================
 
 @interface TBXML : NSObject {
-    
+	
 @private
 	TBXMLElement * rootXMLElement;
-    
+	
 	TBXMLElementBuffer * currentElementBuffer;
 	TBXMLAttributeBuffer * currentAttributeBuffer;
-    
+	
 	long currentElement;
 	long currentAttribute;
-    
+	
 	char * bytes;
 	long bytesLength;
 }
