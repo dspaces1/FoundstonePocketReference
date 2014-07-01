@@ -9,6 +9,7 @@
 #import "MainTable.h"
 #import "MainCell.h"
 #import "SubTable.h"
+#import "XBXML.h"
 
 @interface MainTable ()
 
@@ -39,7 +40,11 @@
              @"SubRefd",
              @"SubRefe",];
     
-    NSLog(@"%@",_Ref);
+    TBXML *sourceXML = [[TBXML alloc] initWithXMLFile:@"movies.xml" error:nil];
+    
+    TBXMLElement *rootElement = sourceXML.rootXMLElement;
+    
+    
     
 }
 
