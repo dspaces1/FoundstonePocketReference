@@ -39,7 +39,7 @@
              @"SubRefd",
              @"SubRefe",];
     
-    //NSLog(@"%@",SubRefArray);
+    NSLog(@"%@",_Ref);
     
 }
 
