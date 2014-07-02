@@ -2,10 +2,10 @@
 
 <collection>
 
-    <Reference name="ReferenceA">
-        <SubReference name= "SubRefa1">
-            <Description>SubRefa1, this function does nothing. This is just a test test test test </Description>
-            <command>/SubRefa1 -f [arg] [arg] </command>
+    <Reference name="Searching For Data">
+        <SubReference name= "Windows (General)">
+            <Description>Windows for loop to search for a particular string via the command line </Description>
+            <command><![CDATA["for /R . %i in (*) do echo "%i" >> find.txt & findstr/I <INSERT STRING> "%i" >> find.txt"]]></command>
         </SubReference>
         <SubReference name= "SubRefa2">
             <Description>SubRefa2, this function does nothing. This is just a test test test test </Description>

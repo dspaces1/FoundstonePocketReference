@@ -42,7 +42,6 @@
     //Go through all child elements of the main root in the xml file and store them in an array
     do{
         NSString *refName = [TBXML valueOfAttributeNamed:@"name" forElement:reference];
-        NSLog(@"%@",refName);
         [_Ref addObject:refName];
         
     }while((reference=reference->nextSibling));
