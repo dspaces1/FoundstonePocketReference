@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<collection>
+
+    <Reference name="ReferenceA">
+        <SubReference name= "SubRefa1">
+            <Description>SubRefa1, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefa1 -f [arg] [arg] </command>
+        </SubReference>
+        <SubReference name= "SubRefa2">
+            <Description>SubRefa2, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefa2 -d [arg]> </command>
+        </SubReference>
+        <SubReference name= "SubRefa3">
+            <Description>SubRefa3, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefa3 -help </command>
+        </SubReference>
+        <SubReference name= "SubRefa4">
+            <Description>SubRefa4, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefa4 -vxc [arg] </command>
+        </SubReference>
+        <SubReference name= "SubRefa5">
+            <Description>SubRefa5, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefa5 -fd [arg] </command>
+        </SubReference>
+    </Reference>
+
+    <Reference name="ReferenceB">
+        <SubReference name= "SubRefb1">
+            <Description>SubRefb1, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefb1 -f [arg] [arg] </command>
+        </SubReference>
+        <SubReference name= "SubRefb2">
+            <Description>SubRefb2, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefb2 -d [arg]> </command>
+        </SubReference>
+        <SubReference name= "SubRefb3">
+            <Description>SubRefb3, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefb3 -help </command>
+        </SubReference>
+        <SubReference name= "SubRefb4">
+            <Description>SubRefb4, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefb4 -vxc [arg] </command>
+        </SubReference>
+        <SubReference name= "SubRefb5">
+            <Description>SubRefb5, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefb5 -fd [arg] </command>
+        </SubReference>
+    </Reference>
+
+    <Reference name="ReferenceC">
+        <SubReference name= "SubRefc1">
+            <Description>SubRefc1, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefc1 -f [arg] [arg] </command>
+        </SubReference>
+        <SubReference name= "SubRefc2">
+            <Description>SubRefc2, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefc2 -d [arg]> </command>
+        </SubReference>
+        <SubReference name= "SubRefc3">
+            <Description>SubRefc3, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefc3 -help </command>
+        </SubReference>
+        <SubReference name= "SubRefc4">
+            <Description>SubRefc4, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefc4 -vxc [arg] </command>
+        </SubReference>
+        <SubReference name= "SubRefc5">
+            <Description>SubRefc5, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefc5 -fd [arg] </command>
+        </SubReference>
+    </Reference>
+
+    <Reference name="ReferenceD">
+        <SubReference name= "SubRefd1">
+            <Description>SubRefd1, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefd1 -f [arg] [arg] </command>
+        </SubReference>
+        <SubReference name= "SubRefd2">
+            <Description>SubRefd2, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefd2 -d [arg]> </command>
+        </SubReference>
+        <SubReference name= "SubRefd3">
+            <Description>SubRefd3, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefd3 -help </command>
+        </SubReference>
+        <SubReference name= "SubRefd4">
+            <Description>SubRefd4, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefd4 -vxc [arg] </command>
+        </SubReference>
+        <SubReference name= "SubRefd5">
+            <Description>SubRefd5, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefd5 -fd [arg] </command>
+        </SubReference>
+    </Reference>
+
+    <Reference name="ReferenceE">
+        <SubReference name= "SubRefe1">
+            <Description>SubRef1, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefe1 -f [arg] [arg] </command>
+        </SubReference>
+        <SubReference name= "SubRefe2">
+            <Description>SubRefe2, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefe2 -d [arg]> </command>
+        </SubReference>
+        <SubReference name= "SubRefe3">
+            <Description>SubRefe3, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefe3 -help </command>
+        </SubReference>
+        <SubReference name= "SubRefe4">
+            <Description>SubRefe4, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefe4 -vxc [arg] </command>
+        </SubReference>
+        <SubReference name= "SubRefe5">
+            <Description>SubRefe5, this function does nothing. This is just a test test test test </Description>
+            <command>/SubRefe5 -fd [arg] </command>
+        </SubReference>
+    </Reference>
+
+
+</collection>

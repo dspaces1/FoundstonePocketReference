@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TBXML.h"
 @interface MainTable : UITableViewController
 
-@property(nonatomic,strong) NSArray * Ref;
-
+@property(nonatomic,strong) NSMutableArray * Ref;
+@property(nonatomic,strong) TBXML *RefXML;
 
 @end
